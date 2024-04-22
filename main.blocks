@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="}L*t~1=wCP@=.!GM=ag2">mySprite</variable><variable type="KIND_SpriteKind" id="6+~V98m5R}n|7m^D41i3">Player</variable><variable type="KIND_SpriteKind" id="eilU:I|CZMJy;)TczurU">Projectile</variable><variable type="KIND_SpriteKind" id="nr^`gol7@KzW!|]r]KKM">Food</variable><variable type="KIND_SpriteKind" id="A6:{$74JchHYmmqv!$lf">Enemy</variable></variables><block type="pxt-on-start" id="E=oPuA9)y[A_vFBGDu*-" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="V~TO,5zhNIhK}NzcHPbk"><field name="VAR" id="}L*t~1=wCP@=.!GM=ag2">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="j{!~UKHCAPk|JRbd`NU)"><value name="img"><shadow type="screen_image_picker" id="-4YV`YM]hpSMERxegJ^,"><field name="img">img`
+9 9 1 1 9 9 1 1 9 9 1 1 9 9 1 1 
+9 9 1 1 9 9 1 1 9 9 1 1 9 9 1 1 
+9 9 1 1 9 9 1 1 9 9 1 1 9 9 1 1 
+9 9 1 1 9 9 1 1 9 9 1 1 9 9 1 1 
+9 9 1 1 9 f 1 1 f f f f 9 9 1 1 
+9 9 1 1 f f 1 1 f 9 1 f 9 9 1 1 
+9 9 1 1 9 f 1 1 f 9 1 f 9 9 1 1 
+9 9 1 1 9 f 1 1 f 9 1 f 9 9 1 1 
+9 9 1 1 9 f 1 1 f 9 1 f 9 9 1 1 
+9 9 1 1 9 f 1 1 f 9 1 f 9 9 1 1 
+9 9 1 1 f f f 1 f f f f 9 9 1 1 
+9 9 1 1 9 9 1 1 9 9 1 1 9 9 1 1 
+9 9 1 1 9 9 1 1 9 9 1 1 9 9 1 1 
+9 9 1 1 9 9 1 1 9 9 1 1 9 9 1 1 
+9 9 1 1 9 9 1 1 9 9 1 1 9 9 1 1 
+9 9 1 1 9 9 1 1 9 9 1 1 9 9 1 1 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"-4YV`YM]hpSMERxegJ^,"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id=".E7q$UK;-d@ZZyfIs5qW"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="forever" id="gD3rn6|fKDUQwPu,@]PM" x="30" y="270"></block><block type="music_playable_play" id="}*2x6x@ar6RPzBr]Qq9B" disabled="true" x="210" y="330"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="*2]vTn0#oxhoIiwU=8P5" disabled="true"><value name="melody"><shadow type="melody_editor" id="lv_`Csp)8^@z,iM}BQ-N" disabled="true"><field name="melody">"C D E F G A B C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="xRR#rvX)-BWY*5)-RVBx" disabled="true"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">500</field></shadow></value></shadow></value></block></xml>
